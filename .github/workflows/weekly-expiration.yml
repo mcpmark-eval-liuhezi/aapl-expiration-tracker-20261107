@@ -1,0 +1,11 @@
+name: weekly-expiration
+
+on:
+  workflow_dispatch:
+
+jobs:
+  echo:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Echo a single line
+        run: echo "aapl-expiration-tracker: weekly workflow ready"
